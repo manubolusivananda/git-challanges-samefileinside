@@ -8,6 +8,6 @@ resource "aws_instance" "nanda" {
   associate_public_ip_address = false
 
   tags = {
-    Name = "my-ec2"
+    Name = "ec2"
   }
 } 
